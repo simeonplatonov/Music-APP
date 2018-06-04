@@ -56,6 +56,7 @@ class Main extends Component {
       <div className="App">
       <h1>Main</h1>
       <nav>
+        <button onClick={()=>this.props.changeRoute("main")}>Home</button>
       <button onClick={()=>this.props.changeRoute("upload")}>Upload</button>
       <button onClick={()=>this.props.changeRoute("my_uploads")}>My Uploads</button>
       <button onClick={()=>this.props.changeRoute("my_favorites")}>My Favorites</button>
